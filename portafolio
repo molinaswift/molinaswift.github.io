@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio personal</title>
+    <style>
+        h1 {color:rgb(155, 46, 26)}
+    </style>
+</head>
+<body style="text-align: center; background-color: rgb(241, 190, 170);">
+    <h1>Mi portafolio personal<br>Molina Estrada Mariana</h1>
+    <h3>Materia: Desarrolla aplicaciones web que se ejecutan en el servidor</h3>
+    <img src="mara.jpg" style="height:150px; width: 150px; border: 2px dotted; border-color: rgb(109, 35, 6);"/>
+    <img src="hello.jpg" style="height: 150px; width:150px; border:2px dotted; border-color:rgb(109, 35, 6);"/> 
+    <img src="face.jpg" style="height: 150px; width: 150px; border: 2px dotted; border-color: rgb(109, 35, 6);"/> <br><br>
+    <a style="color:rgb(109, 35, 6);" href="https://bratz41.github.io/practicasparcial1.html">PORTAFOLIO PARCIAL 1</a> 
+    
+</body>
+</html>

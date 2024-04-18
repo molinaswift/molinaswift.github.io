@@ -2,58 +2,122 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Tablas en HTML</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica #5</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-3.7.1.js"></script>
 </head>
 <body>
-    <h1> manejos de tabla en HTML</h1>
-    <table border="1">
-        <thead>
+    <h1 style="color: #4e4eb1">Práctica #5 Componentes de bootstrap parte 3</h1><hr>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #feffdd;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Cockatiel Company</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tienda</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cotización
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Lienzo</a></li>
+                  <li><a class="dropdown-item" href="#">Bolsa</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Cuadro</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Redes</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+    </nav>
 
-            <tr>
-                <th>Numero de control</th>
-                <th>Nombre</th>
-                <th>Especialidad</th>
-                            </tr>
-        </thead>
-        <thead>
-        <tbody>
-           
-            <tr>
-             <td>2239765431256</td>
-             <td>Mariana Molina Estrada</td>
-             <td>programacion</td>
-            </tr>
-            <tr>
-                <td>2239765431256</td>
-                <td>Paula Sofia Lopez Figueroa</td>
-                <td>construccion</td>
-               </tr>
-               <tr>
-                <td>2239765431256</td>
-                <td>Natalia Nava camacho</td>
-                <td>construccion</td>
-               </tr>
-               <tr>
-                <td>2239765431256</td>
-                <td>Valentina Gutierrez</td>
-                <td>construccion </td>
-               </tr>
+    <div class="container">
+        <div class="row">
+            <h1 style="color: #696969; text-align: center;">Bienvenido a mi página</h1>
+            <img src="Cockatiel.jpg">
+        </div>
+    </div>
+    <hr>
+    <footer class="text-center">
+        COCKATIEL COMPANY v4.5 &copy; 2024 SHIADANI ALITZEL ANDRADE ORTIZ 4AVP
+    </footer>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica #5</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-3.7.1.js"></script>
+</head>
+<body>
+    <h1 style="color: #4e4eb1">Práctica #5 Componentes de bootstrap parte 3</h1><hr>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #feffdd;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Cockatiel Company</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tienda</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cotización
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Lienzo</a></li>
+                  <li><a class="dropdown-item" href="#">Bolsa</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Cuadro</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Redes</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+    </nav>
 
-               <tr>
-                <td>2239765431256</td>
-                <td>Kiara Yael bastidas jimenez</td>
-                <td>contabilidad A</td>
-               </tr>
-   
-   
-   
-
-        </thead>
-        </tbody>
-        
-       
-    </table>
-
+    <div class="container">
+        <div class="row">
+            <h1 style="color: #696969; text-align: center;">Bienvenido a mi página</h1>
+            <img src="Cockatiel.jpg">
+        </div>
+    </div>
+    <hr>
+    <footer class="text-center">
+        COCKATIEL COMPANY v4.5 &copy; 2024 Mariana Molina Estrada 4AVP
+    </footer>
+    <script src="js/bootstrap.js"></script>
 </body>
 </html>
